@@ -32,4 +32,3 @@ jobs:
           hexo clean
           hexo g
           hexo deploy
-          rm ~/.ssh/id_rsa
