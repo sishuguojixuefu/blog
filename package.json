@@ -8,6 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server"
   },
+  "homepage": "https://sishuguojixuefu.github.io/blog",
   "hexo": {
     "version": "4.2.0"
   },
