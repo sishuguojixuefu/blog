@@ -20,18 +20,15 @@ jobs:
           npm install
 
       - name: 4. git settings
-        env:
-          ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
         run: |
-          mkdir -p ~/.ssh/
-          echo "$ACCESS_TOKEN" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.name "mirari"
           git config --global user.email "clover4@gmail.com"
 
-      - name: 5. hexo generate public files...
+      - name: 5. hexo deploy
+        env:
+          ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
         run: |
+          sed -i "s/gh_token/${ACCESS_TOKEN}/g" ./_config.yml
           hexo clean
           hexo g
           hexo deploy
