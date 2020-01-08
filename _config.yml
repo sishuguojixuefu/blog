@@ -99,5 +99,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://gh_token@github.com/sishuguojixuefu/blog.git
-  branch: gh-pages
+  repository: https://gh_token@github.com/sishuguojixuefu/sishuguojixuefu.github.io.git
+  branch: master
