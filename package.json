@@ -4,9 +4,6 @@
   "private": true,
   "scripts": {
     "new": "hexo new",
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
     "server": "hexo server"
   },
   "homepage": "https://sishuguojixuefu.github.io",
