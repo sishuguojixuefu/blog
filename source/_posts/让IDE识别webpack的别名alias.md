@@ -1,7 +1,8 @@
 ---
-title: 让IDE识别webpack的别名alias
+title: 让IDE识别vue-cli3中webpack的别名alias
 date: 2020-01-08 22:53:59
-categories: "学习笔记"
+categories: 
+    - 前端
 tags: 
     - Vue
     - Webpack
@@ -9,6 +10,9 @@ tags:
     - WebStorm 
     - IntelliJ IDEA
 ---
+
+> 本文由杭州前端团队齐霁分享
+
 许多项目脚手架默认就会把src目录添加一个`@`别名，项目中实际引入时，虽然可以精简路径，但也带来一个很麻烦的问题：
 IDE无法识别这些别名，因此导致无法自动完成路径、无法识别引用资源的输出、出现不必要的告警等情况。
 
