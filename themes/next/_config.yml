@@ -182,6 +182,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/sishuguojixuefu || github
+  加入我们: https://www.zhipin.com/gongsir/f6ce940fa563effe0HB60ty8.html || envelope
   #E-Mail: mailto:clover4@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
