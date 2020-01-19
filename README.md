@@ -1,4 +1,4 @@
-## [私塾国际学府·技术博客](http://sishuguojixuefu.github.io/)
+## [晞格玛云·技术博客](http://sishuguojixuefu.github.io/)
 
 基于Hexo搭建的技术博客平台，相较于旧平台，主要有以下特性和改进：
 
