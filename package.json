@@ -11,7 +11,7 @@
     "version": "4.2.0"
   },
   "dependencies": {
-    "hexo": "^4.1.0",
+    "hexo": "^4.2.0",
     "hexo-codepen-v2": "^0.2.3",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
